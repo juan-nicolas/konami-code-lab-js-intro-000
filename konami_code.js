@@ -24,7 +24,7 @@ function konamiTest(event) {
     i++;
 
     if (i === codes.length){
-      alert('Congratulations! You have unlocked the next lesson!')
+      console.log('Congratulations! You have unlocked the next lesson!')
     }
 
   } else {
