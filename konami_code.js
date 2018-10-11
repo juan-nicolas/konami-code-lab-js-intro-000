@@ -22,12 +22,14 @@ function konamiTest(event) {
   if (event.key === codes[i]){
     console.log(i)
     i++;
+    
+    if (i === codes.length){
+      alert('Congratulations! You have unlocked the next lesson!')
+    }
+    
   } else {
     console.log('Wrong code. Try again!')
     i = 0;
   }
 
-  if (i === codes.length){
-    alert('Congratulations! You have unlocked the next lesson!')
-  }
 }
